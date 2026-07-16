@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
-import ProductDetailsView from "../components/ProductDetailsView";
-import Card from "../components/Card";
+import ProductDetailsView from "../components/ProductDetailsView.js";
+import Card from "../components/Card.js";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchProducts } from "../feature/product/ProductSlice";
+import { fetchProducts } from "../feature/product/ProductSlice.js";
 
 const ProductDetails = () => {
   const { id } = useParams();

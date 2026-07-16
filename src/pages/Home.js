@@ -2,9 +2,9 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
-import Card from "../components/Card";
-import Slider from "../components/Herosection";
-import { fetchProducts } from "../feature/product/ProductSlice";
+import Card from "../components/Card.js";
+import Slider from "../components/Herosection.js";
+import { fetchProducts } from "../feature/product/ProductSlice.js";
 
 const Home = () => {
   const dispatch = useDispatch();
