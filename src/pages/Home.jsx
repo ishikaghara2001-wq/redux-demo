@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import Card from "../components/Card";
 import Slider from "../components/Herosection";
-import { fetchProducts } from "../feature/product/productSlice";
+import { fetchProducts } from "../feature/product/ProductSlice";
 
 const Home = () => {
   const dispatch = useDispatch();
