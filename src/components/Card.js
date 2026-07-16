@@ -6,7 +6,7 @@ import {
   removeFromCart,
   increaseQuantity,
   decreaseQuantity,
-} from "../feature/Cart/CartSlice.js";
+} from "../feature/cart/CartSlice";
 
 const Card = ({
   id,
